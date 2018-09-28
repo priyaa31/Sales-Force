@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Everjobs Suite]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="link"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Everjobs Suite] -->
